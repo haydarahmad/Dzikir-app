@@ -91,15 +91,15 @@ class MainActivity : AppCompatActivity() {
         llDzikirDoaShalat.setOnClickListener{
             startActivity(Intent(this, QauliyahShalatActivity::class.java))
         }
-        val llDzikirSetiapSaat = findViewById<LinearLayout>(R.id.ll_dzikir_Setiap_saat)
+        val llDzikirSetiapSaat = findViewById<LinearLayout>(R.id.ll_dzikir_setiap_saat)
         llDzikirSetiapSaat.setOnClickListener{
             startActivity(Intent(this, SetiapSaatDzikirActivity::class.java ))
         }
-        val llDzikirDoaHarian: LinearLayout = findViewById(R.id.ll_dzikir_doa_harian)
+        val llDzikirDoaHarian: LinearLayout = findViewById(R.id.ll_dzikir_dan_doa_harian)
         llDzikirDoaHarian.setOnClickListener{
             startActivity(Intent(this, HarianDzkirDoaActivity::class.java))
         }
-        val llDzikirPagiPetang: LinearLayout = findViewById(R.id.ll_dzikir_pagi_petang)
+        val llDzikirPagiPetang: LinearLayout = findViewById(R.id.ll_dzikir_pagi_dan_petang)
         llDzikirPagiPetang.setOnClickListener{
             startActivity(Intent(this, PagiPetangDzikirActivity::class.java))
         }
